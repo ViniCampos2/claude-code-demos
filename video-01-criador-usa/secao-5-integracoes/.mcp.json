@@ -4,10 +4,7 @@
       "command": "npx",
       "args": [
         "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "/Users/adrianov/Documents/code/llm/apps/canal-youtube",
-        "/Users/adrianov/Documents/code/llm/apps/perfil-x",
-        "/Users/adrianov/Documents/code/llm/apps/behind-the-prompt"
+        "@modelcontextprotocol/server-filesystem"
       ],
       "description": "Acessa múltiplos projetos simultaneamente"
     },

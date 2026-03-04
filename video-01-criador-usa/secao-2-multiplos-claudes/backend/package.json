@@ -1,0 +1,21 @@
+{
+  "name": "demo-backend-api",
+  "version": "1.0.0",
+  "description": "Demo API para validação de email - Seção 2",
+  "main": "src/api/users.ts",
+  "scripts": {
+    "dev": "ts-node src/api/users.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "jest": "^29.7.0"
+  }
+}

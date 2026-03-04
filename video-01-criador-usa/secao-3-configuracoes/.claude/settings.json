@@ -1,0 +1,15 @@
+{
+  "model": "opus-4-6",
+  "hooks": {
+    "postToolUse": {
+      "Edit": {
+        "command": "npm run format -- ${file_path}",
+        "description": "Formata automaticamente o arquivo após edição"
+      },
+      "Write": {
+        "command": "npm run format -- ${file_path}",
+        "description": "Formata automaticamente o arquivo após criação"
+      }
+    }
+  }
+}

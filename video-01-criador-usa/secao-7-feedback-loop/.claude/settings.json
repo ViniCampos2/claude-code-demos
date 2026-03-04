@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "postToolUse": {
+      "Edit": {
+        "command": "npm test -- ${file_path}",
+        "description": "Roda testes do arquivo editado automaticamente",
+        "showOutput": true
+      },
+      "Write": {
+        "command": "npm test",
+        "description": "Roda todos os testes após criar arquivo",
+        "showOutput": true
+      }
+    }
+  }
+}

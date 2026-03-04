@@ -1,0 +1,19 @@
+{
+  "name": "demo-configuracoes",
+  "version": "1.0.0",
+  "description": "Demo configurações Claude Code - Seção 3",
+  "scripts": {
+    "format": "prettier --write",
+    "format:all": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,md}\"",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "jest": "^29.7.0",
+    "typescript": "^5.3.3"
+  }
+}
